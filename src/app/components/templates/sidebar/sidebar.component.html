@@ -1,7 +1,4 @@
 
-<p-sidebar [(visible)]="display" [baseZIndex]="10000">
-    <h1 style="font-weight:normal">Left Sidebar</h1>
-    <p-button type="button" (click)="display = false" label="Save" styleClass="p-button-success"></p-button>
+<p-sidebar [(visible)]="display" [style]="{width:'2.5em'}" [transitionOptions]="'0ms'" [modal]="false" [showCloseIcon]="false">
+    <h1 style="font-weight:normal">Left</h1>
 </p-sidebar>
-
-<p-button type="button" (click)="display = true" icon="pi pi-arrow-right"></p-button>
