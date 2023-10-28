@@ -1,0 +1,11 @@
+:host ::ng-deep .my-toolbar {
+    margin: 2255px;
+    background-color: blue;
+}
+
+
+
+.my-toolbar{
+    margin-top:0px;
+    background-color: blue;
+  }
