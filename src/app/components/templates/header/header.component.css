@@ -1,11 +1,6 @@
-:host ::ng-deep .my-toolbar {
-    margin: 2255px;
+::ng-deep .my-toolbar {
+    position: absolute;
+    top:0;
     background-color: blue;
+    width: 100%;
 }
-
-
-
-.my-toolbar{
-    margin-top:0px;
-    background-color: blue;
-  }
