@@ -1,0 +1,11 @@
+::ng-deep .my-sidebar {
+    position:fixed;
+    background-color: rgb(13, 13, 14);
+    /* margin-top: 3.468em; */
+    z-index: 999;
+}
+
+.my-sidebar {
+    width: 15px;
+    margin-top: 1em;
+}
