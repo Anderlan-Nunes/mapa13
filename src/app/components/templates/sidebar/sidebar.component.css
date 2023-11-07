@@ -1,11 +1,20 @@
-::ng-deep .my-sidebar {
+.my-sidebar{
+    position: fixed;
+    height: 100%;
+    width: 60px;
+    background-color: #2C2C2C;
+}
+
+
+
+/* ::ng-deep .my-sidebar {
     position:fixed;
     background-color: rgb(13, 13, 14);
     /* margin-top: 3.468em; */
-    z-index: 999;
-}
+    /* z-index: 999;
+} */ 
 
-.my-sidebar {
+/* .my-sidebar {
     width: 15px;
     margin-top: 1em;
-}
+} */

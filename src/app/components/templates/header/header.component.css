@@ -1,6 +1,6 @@
 ::ng-deep .my-toolbar {
-    position:fixed;
-    display: block;
+    /* position:fixed; */
+    /* display: block; */
     background-color: blue;
     width: 100vw;
     padding: 0.5em;
