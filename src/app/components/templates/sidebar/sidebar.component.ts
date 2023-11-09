@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,11 +8,40 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  display: any = true;
+    
+    items: MenuItem[] | any
 
-  constructor() { }
+    scrollableItems: MenuItem[] | undefined;
 
-  ngOnInit(): void {
-  }
+    activeItem: MenuItem | any;
+    ngOnInit() {
+        this.items = [
+            {icon: 'pi pi-fw pi-home'},
+            {icon: 'pi pi-fw pi-calendar'},
+            {icon: 'pi pi-fw pi-pencil'},
+            {icon: 'pi pi-fw pi-file'},
+            {icon: 'pi pi-fw pi-cog'}
+        ];
+
+        this.scrollableItems = Array.from({ length: 50 }, (_, i) => ({ label: `Tab ${i + 1}`}));
+
+        this.activeItem = this.items[0];
+
+    }
+
+    // ngOnInit() {
+    //     this.items = [
+    //         {label: 'Home', icon: 'pi pi-fw pi-home'},
+    //         {label: 'Calendar', icon: 'pi pi-fw pi-calendar'},
+    //         {label: 'Edit', icon: 'pi pi-fw pi-pencil'},
+    //         {label: 'Documentation', icon: 'pi pi-fw pi-file'},
+    //         {label: 'Settings', icon: 'pi pi-fw pi-cog'}
+    //     ];
+
+    //     this.scrollableItems = Array.from({ length: 50 }, (_, i) => ({ label: `Tab ${i + 1}`}));
+
+    //     this.activeItem = this.items[0];
+
+    // }
 
 }

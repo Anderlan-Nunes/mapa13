@@ -4,13 +4,18 @@ import { CommonModule } from '@angular/common';
 import {SidebarModule} from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
 import {ToolbarModule} from 'primeng/toolbar';
-import {StyleClassModule} from 'primeng/styleclass'
+import {StyleClassModule} from 'primeng/styleclass';
+import {TabMenuModule} from 'primeng/tabmenu';
+import {MenuModule} from 'primeng/menu';
 
 const primeModule = [
   SidebarModule,
   ButtonModule,
   ToolbarModule,
-  StyleClassModule
+  StyleClassModule,
+  TabMenuModule,
+  MenuModule
+  
 ]
 
 
