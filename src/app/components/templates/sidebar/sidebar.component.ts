@@ -16,10 +16,10 @@ export class SidebarComponent implements OnInit {
     activeItem: MenuItem | any;
     ngOnInit() {
         this.items = [
-            {icon: 'pi pi-fw pi-home'},
+            {icon: 'pi pi-server'},
             {icon: 'pi pi-fw pi-calendar'},
-            {icon: 'pi pi-fw pi-pencil'},
-            {icon: 'pi pi-fw pi-file'},
+            {icon: 'pi pi-map'},
+            {icon: 'pi pi-tablet'},
             {icon: 'pi pi-fw pi-cog'}
         ];
 

@@ -10,8 +10,9 @@
 }
 
 :host ::ng-deep .my-sidebar .p-menuitem{
-    background-color: red;
+    
 }
 :host ::ng-deep .my-sidebar .p-menuitem :hover{
     background-color:#5251517a;
+    
 }
