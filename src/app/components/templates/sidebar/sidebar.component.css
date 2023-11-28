@@ -9,8 +9,8 @@
     background-color: #2C2C2C;
 }
 
-:host ::ng-deep .my-sidebar .p-menuitem{
-    
+:host ::ng-deep .my-sidebar .p-menuitem-icon{
+    font-size: 1.8rem;
 }
 :host ::ng-deep .my-sidebar .p-menuitem :hover{
     background-color:#5251517a;

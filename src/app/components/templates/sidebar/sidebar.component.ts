@@ -20,7 +20,11 @@ export class SidebarComponent implements OnInit {
             {icon: 'pi pi-fw pi-calendar'},
             {icon: 'pi pi-map'},
             {icon: 'pi pi-tablet'},
-            {icon: 'pi pi-fw pi-cog'}
+            {icon: 'pi pi-fw pi-cog'},
+            {
+                label: `<i class="pi pi-tablet style="font-size:48px;color:green;"></i> Item `,
+                escape: false,
+            },
         ];
 
         this.scrollableItems = Array.from({ length: 50 }, (_, i) => ({ label: `Tab ${i + 1}`}));
