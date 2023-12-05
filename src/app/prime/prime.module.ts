@@ -7,6 +7,7 @@ import {ToolbarModule} from 'primeng/toolbar';
 import {StyleClassModule} from 'primeng/styleclass';
 import {TabMenuModule} from 'primeng/tabmenu';
 import {MenuModule} from 'primeng/menu';
+import {CascadeSelectModule} from 'primeng/cascadeselect';
 
 const primeModule = [
   SidebarModule,
@@ -14,7 +15,8 @@ const primeModule = [
   ToolbarModule,
   StyleClassModule,
   TabMenuModule,
-  MenuModule
+  MenuModule,
+  CascadeSelectModule
   
 ]
 
