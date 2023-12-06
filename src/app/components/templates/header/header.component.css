@@ -14,7 +14,11 @@
     height: 1.5em;
 }
 
-::ng-deep .my-toolbar .p-toolbar-group-right i{
+::ng-deep .my-toolbar .p-toolbar-group-right i:not(:first-of-type){
     font-size: 1.3rem;
     margin-right: 30px;
+}
+
+::ng-deep .my-toolbar .p-toolbar-group-right i:first-of-type{
+    margin-right: 10px;
 }

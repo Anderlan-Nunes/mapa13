@@ -8,8 +8,6 @@ import { MenuItem } from 'primeng/api';
 })
 export class HeaderComponent implements OnInit {
 
-    selectedCity1: any;
-
     ngOnInit() {
 
     }

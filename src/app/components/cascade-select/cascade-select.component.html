@@ -1,0 +1,6 @@
+<p-cascadeSelect 
+    [(ngModel)]="selectedCity1" [options]="countries" optionLabel="cname" 
+    optionGroupLabel="name" 
+    [optionGroupChildren]="['states', 'cities']" [style]="{'minWidth': '12rem'}" 
+    placeholder="Não Atualizar">
+</p-cascadeSelect>
